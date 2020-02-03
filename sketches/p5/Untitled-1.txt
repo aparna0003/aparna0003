@@ -1,0 +1,27 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  for(let i=0, i<10,i=i+2)
+  {
+      ellipse(50+10*i,100,80,80)
+  }
+  }
+
+
+
+                                          // rainbow colour
+  function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  for(let i=1; i<=10;i=i+2)
+  {
+    fill(10,60,i*10);
+      ellipse(60+30*i,300,40,80)
+  }
+  }
